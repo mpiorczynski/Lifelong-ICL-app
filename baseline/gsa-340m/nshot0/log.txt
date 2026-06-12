@@ -1,0 +1,268 @@
+05/22/2026 15:36:57 - INFO - __main__ - Namespace(data_dir='data', output_dir='output/default/baseline/gsa-340m/nshot0/', split='default', exp_mode='baseline', permutation_num=5, n_shot=0, n_task=-1, check_context=False, incre_min_idx=None, incre_max_idx=None, incre_indexes=None, test_all=False, use_paraphrase=False, use_random_labels=False, use_wrong_labels=False, global_perturbation=False, n_repeat=None, repeat_shuffle=False, use_irrlevant_prefix=False, irrelevant_dir='needle-in-the-haystack-test/data/PaulGrahamEssays', task_sep='\n\n', demo_sep='\n', backend='hf', model='gsa-340m', inference_method='rank', seed=42)
+05/22/2026 15:36:57 - INFO - __main__ - Setting up model gsa-340m with HuggingFace transformers ...
+05/22/2026 15:37:00 - INFO - __main__ - Converting legacy fla checkpoint layout for linear-moe-hub/GSA-340M
+05/22/2026 15:37:14 - WARNING - __main__ - Missing keys: ['model.layers.0.attn_norm.weight', 'model.layers.0.mlp_norm.weight', 'model.layers.1.attn_norm.weight', 'model.layers.1.mlp_norm.weight', 'model.layers.2.attn_norm.weight', 'model.layers.2.mlp_norm.weight', 'model.layers.3.attn_norm.weight', 'model.layers.3.mlp_norm.weight']
+05/22/2026 15:37:14 - WARNING - __main__ - Unexpected keys: ['model.layers.0.attn.norm.weight', 'model.layers.0.mlp.norm.weight', 'model.layers.1.attn.norm.weight', 'model.layers.1.mlp.norm.weight', 'model.layers.2.attn.norm.weight', 'model.layers.2.mlp.norm.weight', 'model.layers.3.attn.norm.weight', 'model.layers.3.mlp.norm.weight']
+05/22/2026 15:37:14 - INFO - __main__ - Model loading time: 17.345133304595947 secs
+05/22/2026 15:37:14 - INFO - __main__ - loading data for ag_news
+05/22/2026 15:38:39 - INFO - __main__ - task: ag_news, train_set_id: 0, n_shot_per_class: 0, acc: 0.40, macro_f1: 0.3396, ood_rate: 0.00
+05/22/2026 15:38:39 - INFO - __main__ - loading data for amazon_counterfactual_en
+05/22/2026 15:38:43 - INFO - __main__ - task: amazon_counterfactual_en, train_set_id: 0, n_shot_per_class: 0, acc: 0.67, macro_f1: 0.5112, ood_rate: 0.00
+05/22/2026 15:38:43 - INFO - __main__ - loading data for amazon_massive_scenario
+05/22/2026 15:38:46 - INFO - __main__ - task: amazon_massive_scenario, train_set_id: 0, n_shot_per_class: 0, acc: 0.15, macro_f1: 0.1180, ood_rate: 0.00
+05/22/2026 15:38:46 - INFO - __main__ - loading data for app_reviews
+05/22/2026 15:38:50 - INFO - __main__ - task: app_reviews, train_set_id: 0, n_shot_per_class: 0, acc: 0.23, macro_f1: 0.1037, ood_rate: 0.00
+05/22/2026 15:38:50 - INFO - __main__ - loading data for beaver_tails
+05/22/2026 15:38:55 - INFO - __main__ - task: beaver_tails, train_set_id: 0, n_shot_per_class: 0, acc: 0.37, macro_f1: 0.3030, ood_rate: 0.00
+05/22/2026 15:38:55 - INFO - __main__ - loading data for boolq
+05/22/2026 15:38:59 - INFO - __main__ - task: boolq, train_set_id: 0, n_shot_per_class: 0, acc: 0.59, macro_f1: 0.4122, ood_rate: 0.00
+05/22/2026 15:38:59 - INFO - __main__ - loading data for brag_action
+05/22/2026 15:39:03 - INFO - __main__ - task: brag_action, train_set_id: 0, n_shot_per_class: 0, acc: 0.06, macro_f1: 0.0600, ood_rate: 0.00
+05/22/2026 15:39:03 - INFO - __main__ - loading data for circa
+05/22/2026 15:39:07 - INFO - __main__ - task: circa, train_set_id: 0, n_shot_per_class: 0, acc: 0.68, macro_f1: 0.5941, ood_rate: 0.00
+05/22/2026 15:39:07 - INFO - __main__ - loading data for clickbait
+05/22/2026 15:39:10 - INFO - __main__ - task: clickbait, train_set_id: 0, n_shot_per_class: 0, acc: 0.48, macro_f1: 0.4286, ood_rate: 0.00
+05/22/2026 15:39:10 - INFO - __main__ - loading data for climate_commitments_actions
+05/22/2026 15:39:15 - INFO - __main__ - task: climate_commitments_actions, train_set_id: 0, n_shot_per_class: 0, acc: 0.63, macro_f1: 0.4107, ood_rate: 0.00
+05/22/2026 15:39:15 - INFO - __main__ - loading data for climate_fever
+05/22/2026 15:39:18 - INFO - __main__ - task: climate_fever, train_set_id: 0, n_shot_per_class: 0, acc: 0.33, macro_f1: 0.1241, ood_rate: 0.00
+05/22/2026 15:39:18 - INFO - __main__ - loading data for climate_sentiment
+05/22/2026 15:39:23 - INFO - __main__ - task: climate_sentiment, train_set_id: 0, n_shot_per_class: 0, acc: 0.40, macro_f1: 0.3386, ood_rate: 0.00
+05/22/2026 15:39:23 - INFO - __main__ - loading data for cola
+05/22/2026 15:39:26 - INFO - __main__ - task: cola, train_set_id: 0, n_shot_per_class: 0, acc: 0.33, macro_f1: 0.2588, ood_rate: 0.00
+05/22/2026 15:39:26 - INFO - __main__ - loading data for copa
+05/22/2026 15:39:30 - INFO - __main__ - task: copa, train_set_id: 0, n_shot_per_class: 0, acc: 0.57, macro_f1: 0.4831, ood_rate: 0.00
+05/22/2026 15:39:30 - INFO - __main__ - loading data for covid_fake_news
+05/22/2026 15:39:34 - INFO - __main__ - task: covid_fake_news, train_set_id: 0, n_shot_per_class: 0, acc: 0.55, macro_f1: 0.5500, ood_rate: 0.00
+05/22/2026 15:39:34 - INFO - __main__ - loading data for dbpedia_14
+05/22/2026 15:39:38 - INFO - __main__ - task: dbpedia_14, train_set_id: 0, n_shot_per_class: 0, acc: 0.12, macro_f1: 0.0839, ood_rate: 0.00
+05/22/2026 15:39:38 - INFO - __main__ - loading data for disaster_response_message
+05/22/2026 15:39:42 - INFO - __main__ - task: disaster_response_message, train_set_id: 0, n_shot_per_class: 0, acc: 0.84, macro_f1: 0.4565, ood_rate: 0.00
+05/22/2026 15:39:42 - INFO - __main__ - loading data for emo
+05/22/2026 15:39:46 - INFO - __main__ - task: emo, train_set_id: 0, n_shot_per_class: 0, acc: 0.04, macro_f1: 0.0363, ood_rate: 0.00
+05/22/2026 15:39:46 - INFO - __main__ - loading data for emotion
+05/22/2026 15:39:50 - INFO - __main__ - task: emotion, train_set_id: 0, n_shot_per_class: 0, acc: 0.17, macro_f1: 0.1066, ood_rate: 0.00
+05/22/2026 15:39:50 - INFO - __main__ - loading data for environmental_claims
+05/22/2026 15:39:53 - INFO - __main__ - task: environmental_claims, train_set_id: 0, n_shot_per_class: 0, acc: 0.76, macro_f1: 0.4318, ood_rate: 0.00
+05/22/2026 15:39:53 - INFO - __main__ - loading data for ethos
+05/22/2026 15:39:57 - INFO - __main__ - task: ethos, train_set_id: 0, n_shot_per_class: 0, acc: 0.54, macro_f1: 0.5370, ood_rate: 0.00
+05/22/2026 15:39:57 - INFO - __main__ - loading data for fever
+05/22/2026 15:40:01 - INFO - __main__ - task: fever, train_set_id: 0, n_shot_per_class: 0, acc: 0.28, macro_f1: 0.1458, ood_rate: 0.00
+05/22/2026 15:40:01 - INFO - __main__ - loading data for financial_phrasebank
+05/22/2026 15:40:05 - INFO - __main__ - task: financial_phrasebank, train_set_id: 0, n_shot_per_class: 0, acc: 0.27, macro_f1: 0.1417, ood_rate: 0.00
+05/22/2026 15:40:05 - INFO - __main__ - loading data for hate_speech18
+05/22/2026 15:40:09 - INFO - __main__ - task: hate_speech18, train_set_id: 0, n_shot_per_class: 0, acc: 0.68, macro_f1: 0.4802, ood_rate: 0.00
+05/22/2026 15:40:09 - INFO - __main__ - loading data for health_fact
+05/22/2026 15:40:12 - INFO - __main__ - task: health_fact, train_set_id: 0, n_shot_per_class: 0, acc: 0.09, macro_f1: 0.1017, ood_rate: 0.00
+05/22/2026 15:40:12 - INFO - __main__ - loading data for i2d2
+05/22/2026 15:40:16 - INFO - __main__ - task: i2d2, train_set_id: 0, n_shot_per_class: 0, acc: 0.61, macro_f1: 0.3789, ood_rate: 0.00
+05/22/2026 15:40:16 - INFO - __main__ - loading data for imdb
+05/22/2026 15:40:20 - INFO - __main__ - task: imdb, train_set_id: 0, n_shot_per_class: 0, acc: 0.53, macro_f1: 0.4457, ood_rate: 0.00
+05/22/2026 15:40:20 - INFO - __main__ - loading data for insincere_questions
+05/22/2026 15:40:24 - INFO - __main__ - task: insincere_questions, train_set_id: 0, n_shot_per_class: 0, acc: 0.05, macro_f1: 0.0476, ood_rate: 0.00
+05/22/2026 15:40:24 - INFO - __main__ - loading data for is_humor
+05/22/2026 15:40:28 - INFO - __main__ - task: is_humor, train_set_id: 0, n_shot_per_class: 0, acc: 0.33, macro_f1: 0.2853, ood_rate: 0.00
+05/22/2026 15:40:28 - INFO - __main__ - loading data for jailbreak_classification
+05/22/2026 15:40:32 - INFO - __main__ - task: jailbreak_classification, train_set_id: 0, n_shot_per_class: 0, acc: 0.44, macro_f1: 0.3056, ood_rate: 0.00
+05/22/2026 15:40:32 - INFO - __main__ - loading data for lexical_rc_cogalexv
+05/22/2026 15:40:36 - INFO - __main__ - task: lexical_rc_cogalexv, train_set_id: 0, n_shot_per_class: 0, acc: 0.18, macro_f1: 0.1294, ood_rate: 0.00
+05/22/2026 15:40:36 - INFO - __main__ - loading data for lexical_rc_root09
+05/22/2026 15:40:40 - INFO - __main__ - task: lexical_rc_root09, train_set_id: 0, n_shot_per_class: 0, acc: 0.26, macro_f1: 0.1387, ood_rate: 0.00
+05/22/2026 15:40:40 - INFO - __main__ - loading data for liar
+05/22/2026 15:40:43 - INFO - __main__ - task: liar, train_set_id: 0, n_shot_per_class: 0, acc: 0.20, macro_f1: 0.0676, ood_rate: 0.00
+05/22/2026 15:40:43 - INFO - __main__ - loading data for limit
+05/22/2026 15:40:47 - INFO - __main__ - task: limit, train_set_id: 0, n_shot_per_class: 0, acc: 0.29, macro_f1: 0.2427, ood_rate: 0.00
+05/22/2026 15:40:47 - INFO - __main__ - loading data for logical_fallacy_detection
+05/22/2026 15:40:51 - INFO - __main__ - task: logical_fallacy_detection, train_set_id: 0, n_shot_per_class: 0, acc: 0.45, macro_f1: 0.4068, ood_rate: 0.00
+05/22/2026 15:40:51 - INFO - __main__ - loading data for metaphor_boolean
+05/22/2026 15:40:55 - INFO - __main__ - task: metaphor_boolean, train_set_id: 0, n_shot_per_class: 0, acc: 0.48, macro_f1: 0.3243, ood_rate: 0.00
+05/22/2026 15:40:55 - INFO - __main__ - loading data for mrpc
+05/22/2026 15:40:59 - INFO - __main__ - task: mrpc, train_set_id: 0, n_shot_per_class: 0, acc: 0.32, macro_f1: 0.2424, ood_rate: 0.00
+05/22/2026 15:40:59 - INFO - __main__ - loading data for news_data
+05/22/2026 15:41:03 - INFO - __main__ - task: news_data, train_set_id: 0, n_shot_per_class: 0, acc: 0.58, macro_f1: 0.3506, ood_rate: 0.00
+05/22/2026 15:41:03 - INFO - __main__ - loading data for poem_sentiment
+05/22/2026 15:41:06 - INFO - __main__ - task: poem_sentiment, train_set_id: 0, n_shot_per_class: 0, acc: 0.32, macro_f1: 0.2566, ood_rate: 0.00
+05/22/2026 15:41:06 - INFO - __main__ - loading data for pragmeval_emergent
+05/22/2026 15:41:10 - INFO - __main__ - task: pragmeval_emergent, train_set_id: 0, n_shot_per_class: 0, acc: 0.52, macro_f1: 0.2281, ood_rate: 0.00
+05/22/2026 15:41:10 - INFO - __main__ - loading data for pragmeval_sarcasm
+05/22/2026 15:41:15 - INFO - __main__ - task: pragmeval_sarcasm, train_set_id: 0, n_shot_per_class: 0, acc: 0.56, macro_f1: 0.3789, ood_rate: 0.00
+05/22/2026 15:41:15 - INFO - __main__ - loading data for pragmeval_verifiability
+05/22/2026 15:41:18 - INFO - __main__ - task: pragmeval_verifiability, train_set_id: 0, n_shot_per_class: 0, acc: 0.69, macro_f1: 0.3803, ood_rate: 0.00
+05/22/2026 15:41:18 - INFO - __main__ - loading data for prosocial_dialog
+05/22/2026 15:41:22 - INFO - __main__ - task: prosocial_dialog, train_set_id: 0, n_shot_per_class: 0, acc: 0.17, macro_f1: 0.0841, ood_rate: 0.00
+05/22/2026 15:41:22 - INFO - __main__ - loading data for pun_detection
+05/22/2026 15:41:26 - INFO - __main__ - task: pun_detection, train_set_id: 0, n_shot_per_class: 0, acc: 0.65, macro_f1: 0.5508, ood_rate: 0.00
+05/22/2026 15:41:26 - INFO - __main__ - loading data for qqp
+05/22/2026 15:41:30 - INFO - __main__ - task: qqp, train_set_id: 0, n_shot_per_class: 0, acc: 0.45, macro_f1: 0.4473, ood_rate: 0.00
+05/22/2026 15:41:30 - INFO - __main__ - loading data for rotten_tomatoes
+05/22/2026 15:41:33 - INFO - __main__ - task: rotten_tomatoes, train_set_id: 0, n_shot_per_class: 0, acc: 0.50, macro_f1: 0.3503, ood_rate: 0.00
+05/22/2026 15:41:33 - INFO - __main__ - loading data for semeval_absa_laptop
+05/22/2026 15:41:37 - INFO - __main__ - task: semeval_absa_laptop, train_set_id: 0, n_shot_per_class: 0, acc: 0.48, macro_f1: 0.1949, ood_rate: 0.00
+05/22/2026 15:41:37 - INFO - __main__ - loading data for semeval_absa_restaurant
+05/22/2026 15:41:41 - INFO - __main__ - task: semeval_absa_restaurant, train_set_id: 0, n_shot_per_class: 0, acc: 0.68, macro_f1: 0.2563, ood_rate: 0.00
+05/22/2026 15:41:41 - INFO - __main__ - loading data for senteval_cr
+05/22/2026 15:41:45 - INFO - __main__ - task: senteval_cr, train_set_id: 0, n_shot_per_class: 0, acc: 0.56, macro_f1: 0.3590, ood_rate: 0.00
+05/22/2026 15:41:45 - INFO - __main__ - loading data for senteval_subj
+05/22/2026 15:41:48 - INFO - __main__ - task: senteval_subj, train_set_id: 0, n_shot_per_class: 0, acc: 0.43, macro_f1: 0.3007, ood_rate: 0.00
+05/22/2026 15:41:48 - INFO - __main__ - loading data for silicone_dyda_da
+05/22/2026 15:41:52 - INFO - __main__ - task: silicone_dyda_da, train_set_id: 0, n_shot_per_class: 0, acc: 0.23, macro_f1: 0.1808, ood_rate: 0.00
+05/22/2026 15:41:52 - INFO - __main__ - loading data for sms_spam
+05/22/2026 15:41:56 - INFO - __main__ - task: sms_spam, train_set_id: 0, n_shot_per_class: 0, acc: 0.30, macro_f1: 0.2860, ood_rate: 0.00
+05/22/2026 15:41:56 - INFO - __main__ - loading data for sst2
+05/22/2026 15:42:00 - INFO - __main__ - task: sst2, train_set_id: 0, n_shot_per_class: 0, acc: 0.63, macro_f1: 0.4999, ood_rate: 0.00
+05/22/2026 15:42:00 - INFO - __main__ - loading data for sst5
+05/22/2026 15:42:03 - INFO - __main__ - task: sst5, train_set_id: 0, n_shot_per_class: 0, acc: 0.24, macro_f1: 0.1085, ood_rate: 0.00
+05/22/2026 15:42:03 - INFO - __main__ - loading data for student_question_categories
+05/22/2026 15:42:08 - INFO - __main__ - task: student_question_categories, train_set_id: 0, n_shot_per_class: 0, acc: 0.38, macro_f1: 0.3442, ood_rate: 0.00
+05/22/2026 15:42:08 - INFO - __main__ - loading data for tcfd_recommendations
+05/22/2026 15:42:12 - INFO - __main__ - task: tcfd_recommendations, train_set_id: 0, n_shot_per_class: 0, acc: 0.17, macro_f1: 0.1250, ood_rate: 0.00
+05/22/2026 15:42:12 - INFO - __main__ - loading data for this_is_not_a_dataset
+05/22/2026 15:42:16 - INFO - __main__ - task: this_is_not_a_dataset, train_set_id: 0, n_shot_per_class: 0, acc: 0.54, macro_f1: 0.3506, ood_rate: 0.00
+05/22/2026 15:42:16 - INFO - __main__ - loading data for toxic_conversations
+05/22/2026 15:42:20 - INFO - __main__ - task: toxic_conversations, train_set_id: 0, n_shot_per_class: 0, acc: 0.90, macro_f1: 0.4737, ood_rate: 0.00
+05/22/2026 15:42:20 - INFO - __main__ - loading data for trec
+05/22/2026 15:42:23 - INFO - __main__ - task: trec, train_set_id: 0, n_shot_per_class: 0, acc: 0.36, macro_f1: 0.3216, ood_rate: 0.00
+05/22/2026 15:42:23 - INFO - __main__ - loading data for wic
+05/22/2026 15:42:27 - INFO - __main__ - task: wic, train_set_id: 0, n_shot_per_class: 0, acc: 0.52, macro_f1: 0.3421, ood_rate: 0.00
+05/22/2026 15:42:27 - INFO - __main__ - loading data for wiki_hades
+05/22/2026 15:42:32 - INFO - __main__ - task: wiki_hades, train_set_id: 0, n_shot_per_class: 0, acc: 0.49, macro_f1: 0.4875, ood_rate: 0.00
+05/22/2026 15:42:32 - INFO - __main__ - loading data for wiki_qa
+05/22/2026 15:42:35 - INFO - __main__ - task: wiki_qa, train_set_id: 0, n_shot_per_class: 0, acc: 0.73, macro_f1: 0.4220, ood_rate: 0.00
+05/22/2026 15:42:35 - INFO - __main__ - loading data for wsc
+05/22/2026 15:42:39 - INFO - __main__ - task: wsc, train_set_id: 0, n_shot_per_class: 0, acc: 0.38, macro_f1: 0.3273, ood_rate: 0.00
+05/22/2026 15:42:39 - INFO - __main__ - loading data for yahoo_answers_topics
+05/22/2026 15:42:43 - INFO - __main__ - task: yahoo_answers_topics, train_set_id: 0, n_shot_per_class: 0, acc: 0.20, macro_f1: 0.1852, ood_rate: 0.00
+06/11/2026 18:15:28 - INFO - __main__ - Namespace(data_dir='data', output_dir='output/default/baseline/gsa-340m/nshot0/', split='default', exp_mode='baseline', permutation_num=5, n_shot=0, n_task=-1, check_context=False, incre_min_idx=None, incre_max_idx=None, incre_indexes=None, test_all=False, use_paraphrase=False, use_random_labels=False, use_wrong_labels=False, global_perturbation=False, n_repeat=None, repeat_shuffle=False, use_irrlevant_prefix=False, irrelevant_dir='needle-in-the-haystack-test/data/PaulGrahamEssays', task_sep='\n\n', demo_sep='\n', backend='hf', model='gsa-340m', inference_method='rank', seed=42)
+06/11/2026 18:15:28 - INFO - __main__ - Setting up model gsa-340m with HuggingFace transformers ...
+06/11/2026 18:15:30 - INFO - __main__ - Converting legacy fla checkpoint layout for linear-moe-hub/GSA-340M
+06/11/2026 18:15:45 - WARNING - __main__ - Missing keys: ['model.layers.0.attn_norm.weight', 'model.layers.0.mlp_norm.weight', 'model.layers.1.attn_norm.weight', 'model.layers.1.mlp_norm.weight', 'model.layers.2.attn_norm.weight', 'model.layers.2.mlp_norm.weight', 'model.layers.3.attn_norm.weight', 'model.layers.3.mlp_norm.weight']
+06/11/2026 18:15:45 - WARNING - __main__ - Unexpected keys: ['model.layers.0.attn.norm.weight', 'model.layers.0.mlp.norm.weight', 'model.layers.1.attn.norm.weight', 'model.layers.1.mlp.norm.weight', 'model.layers.2.attn.norm.weight', 'model.layers.2.mlp.norm.weight', 'model.layers.3.attn.norm.weight', 'model.layers.3.mlp.norm.weight']
+06/11/2026 18:15:45 - INFO - __main__ - Model loading time: 17.62654948234558 secs
+06/11/2026 18:15:45 - INFO - __main__ - loading data for ag_news
+06/11/2026 18:15:50 - INFO - __main__ - task: ag_news, train_set_id: 0, n_shot_per_class: 0, acc: 0.40, macro_f1: 0.3396, ood_rate: 0.00, n: 100, pred_dist: {"Business": 15, "Sports": 11, "World": 74}, label_dist: {"Business": 32, "Sports": 27, "Technology": 19, "World": 22}
+06/11/2026 18:15:50 - INFO - __main__ - loading data for amazon_counterfactual_en
+06/11/2026 18:15:54 - INFO - __main__ - task: amazon_counterfactual_en, train_set_id: 0, n_shot_per_class: 0, acc: 0.67, macro_f1: 0.5112, ood_rate: 0.00, n: 100, pred_dist: {"counterfactual": 33, "not counterfactual": 67}, label_dist: {"counterfactual": 10, "not counterfactual": 90}
+06/11/2026 18:15:54 - INFO - __main__ - loading data for amazon_massive_scenario
+06/11/2026 18:15:58 - INFO - __main__ - task: amazon_massive_scenario, train_set_id: 0, n_shot_per_class: 0, acc: 0.15, macro_f1: 0.1180, ood_rate: 0.00, n: 100, pred_dist: {"alarm": 1, "audio": 1, "cooking": 2, "email": 9, "iot": 2, "music": 49, "news": 31, "play": 5}, label_dist: {"alarm": 5, "audio": 3, "calendar": 5, "cooking": 4, "datetime": 6, "email": 14, "general": 7, "iot": 6, "lists": 5, "music": 1, "news": 3, "play": 16, "qa": 8, "recommendation": 3, "social": 1, "takeaway": 1, "transport": 5, "weather": 7}
+06/11/2026 18:15:58 - INFO - __main__ - loading data for app_reviews
+06/11/2026 18:16:01 - INFO - __main__ - task: app_reviews, train_set_id: 0, n_shot_per_class: 0, acc: 0.23, macro_f1: 0.1037, ood_rate: 0.00, n: 100, pred_dist: {"five": 9, "one": 91}, label_dist: {"five": 59, "four": 12, "one": 15, "three": 12, "two": 2}
+06/11/2026 18:16:01 - INFO - __main__ - loading data for beaver_tails
+06/11/2026 18:16:06 - INFO - __main__ - task: beaver_tails, train_set_id: 0, n_shot_per_class: 0, acc: 0.37, macro_f1: 0.3030, ood_rate: 0.00, n: 100, pred_dist: {"no": 5, "yes": 95}, label_dist: {"no": 64, "yes": 36}
+06/11/2026 18:16:06 - INFO - __main__ - loading data for boolq
+06/11/2026 18:16:10 - INFO - __main__ - task: boolq, train_set_id: 0, n_shot_per_class: 0, acc: 0.59, macro_f1: 0.4122, ood_rate: 0.00, n: 100, pred_dist: {"no": 3, "yes": 97}, label_dist: {"no": 42, "yes": 58}
+06/11/2026 18:16:10 - INFO - __main__ - loading data for brag_action
+06/11/2026 18:16:14 - INFO - __main__ - task: brag_action, train_set_id: 0, n_shot_per_class: 0, acc: 0.06, macro_f1: 0.0600, ood_rate: 0.00, n: 100, pred_dist: {"bragging": 97, "not bragging": 3}, label_dist: {"bragging": 3, "not bragging": 97}
+06/11/2026 18:16:14 - INFO - __main__ - loading data for circa
+06/11/2026 18:16:18 - INFO - __main__ - task: circa, train_set_id: 0, n_shot_per_class: 0, acc: 0.68, macro_f1: 0.5941, ood_rate: 0.00, n: 100, pred_dist: {"no": 23, "yes": 77}, label_dist: {"no": 31, "yes": 69}
+06/11/2026 18:16:18 - INFO - __main__ - loading data for clickbait
+06/11/2026 18:16:21 - INFO - __main__ - task: clickbait, train_set_id: 0, n_shot_per_class: 0, acc: 0.48, macro_f1: 0.4286, ood_rate: 0.00, n: 100, pred_dist: {"no": 89, "yes": 11}, label_dist: {"no": 41, "yes": 59}
+06/11/2026 18:16:21 - INFO - __main__ - loading data for climate_commitments_actions
+06/11/2026 18:16:26 - INFO - __main__ - task: climate_commitments_actions, train_set_id: 0, n_shot_per_class: 0, acc: 0.63, macro_f1: 0.4107, ood_rate: 0.00, n: 100, pred_dist: {"no": 97, "yes": 3}, label_dist: {"no": 64, "yes": 36}
+06/11/2026 18:16:26 - INFO - __main__ - loading data for climate_fever
+06/11/2026 18:16:29 - INFO - __main__ - task: climate_fever, train_set_id: 0, n_shot_per_class: 0, acc: 0.33, macro_f1: 0.1241, ood_rate: 0.00, n: 100, pred_dist: {"not enough info": 100}, label_dist: {"disputed": 13, "not enough info": 33, "refuted": 16, "supported": 38}
+06/11/2026 18:16:29 - INFO - __main__ - loading data for climate_sentiment
+06/11/2026 18:16:34 - INFO - __main__ - task: climate_sentiment, train_set_id: 0, n_shot_per_class: 0, acc: 0.40, macro_f1: 0.3386, ood_rate: 0.00, n: 100, pred_dist: {"neutral": 2, "opportunity": 45, "risk": 53}, label_dist: {"neutral": 47, "opportunity": 16, "risk": 37}
+06/11/2026 18:16:34 - INFO - __main__ - loading data for cola
+06/11/2026 18:16:38 - INFO - __main__ - task: cola, train_set_id: 0, n_shot_per_class: 0, acc: 0.33, macro_f1: 0.2588, ood_rate: 0.00, n: 100, pred_dist: {"acceptable": 1, "unacceptable": 99}, label_dist: {"acceptable": 68, "unacceptable": 32}
+06/11/2026 18:16:38 - INFO - __main__ - loading data for copa
+06/11/2026 18:16:41 - INFO - __main__ - task: copa, train_set_id: 0, n_shot_per_class: 0, acc: 0.57, macro_f1: 0.4831, ood_rate: 0.00, n: 100, pred_dist: {"cause": 89, "effect": 11}, label_dist: {"cause": 52, "effect": 48}
+06/11/2026 18:16:41 - INFO - __main__ - loading data for covid_fake_news
+06/11/2026 18:16:45 - INFO - __main__ - task: covid_fake_news, train_set_id: 0, n_shot_per_class: 0, acc: 0.55, macro_f1: 0.5500, ood_rate: 0.00, n: 100, pred_dist: {"fake": 56, "real": 44}, label_dist: {"fake": 43, "real": 57}
+06/11/2026 18:16:45 - INFO - __main__ - loading data for dbpedia_14
+06/11/2026 18:16:50 - INFO - __main__ - task: dbpedia_14, train_set_id: 0, n_shot_per_class: 0, acc: 0.12, macro_f1: 0.0839, ood_rate: 0.00, n: 100, pred_dist: {"album": 93, "artist": 1, "company": 2, "film": 4}, label_dist: {"album": 6, "animal": 5, "artist": 9, "athlete": 6, "building": 4, "company": 11, "educational institution": 6, "film": 7, "mean of transportation": 9, "natural place": 6, "office holder": 9, "plant": 8, "village": 5, "written work": 9}
+06/11/2026 18:16:50 - INFO - __main__ - loading data for disaster_response_message
+06/11/2026 18:16:53 - INFO - __main__ - task: disaster_response_message, train_set_id: 0, n_shot_per_class: 0, acc: 0.84, macro_f1: 0.4565, ood_rate: 0.00, n: 100, pred_dist: {"true": 100}, label_dist: {"false": 16, "true": 84}
+06/11/2026 18:16:53 - INFO - __main__ - loading data for emo
+06/11/2026 18:16:57 - INFO - __main__ - task: emo, train_set_id: 0, n_shot_per_class: 0, acc: 0.04, macro_f1: 0.0363, ood_rate: 0.00, n: 100, pred_dist: {"angry": 5, "happy": 28, "others": 1, "sad": 66}, label_dist: {"angry": 5, "happy": 3, "others": 90, "sad": 2}
+06/11/2026 18:16:57 - INFO - __main__ - loading data for emotion
+06/11/2026 18:17:01 - INFO - __main__ - task: emotion, train_set_id: 0, n_shot_per_class: 0, acc: 0.17, macro_f1: 0.1066, ood_rate: 0.00, n: 100, pred_dist: {"anger": 81, "love": 14, "sadness": 5}, label_dist: {"anger": 12, "fear": 12, "joy": 38, "love": 12, "sadness": 22, "surprise": 4}
+06/11/2026 18:17:01 - INFO - __main__ - loading data for environmental_claims
+06/11/2026 18:17:04 - INFO - __main__ - task: environmental_claims, train_set_id: 0, n_shot_per_class: 0, acc: 0.76, macro_f1: 0.4318, ood_rate: 0.00, n: 100, pred_dist: {"no": 100}, label_dist: {"no": 76, "yes": 24}
+06/11/2026 18:17:04 - INFO - __main__ - loading data for ethos
+06/11/2026 18:17:08 - INFO - __main__ - task: ethos, train_set_id: 0, n_shot_per_class: 0, acc: 0.54, macro_f1: 0.5370, ood_rate: 0.00, n: 100, pred_dist: {"hate speech": 44, "no hate speech": 56}, label_dist: {"hate speech": 48, "no hate speech": 52}
+06/11/2026 18:17:08 - INFO - __main__ - loading data for fever
+06/11/2026 18:17:12 - INFO - __main__ - task: fever, train_set_id: 0, n_shot_per_class: 0, acc: 0.28, macro_f1: 0.1458, ood_rate: 0.00, n: 100, pred_dist: {"not enough info": 100}, label_dist: {"not enough info": 28, "refuted": 28, "supported": 44}
+06/11/2026 18:17:12 - INFO - __main__ - loading data for financial_phrasebank
+06/11/2026 18:17:16 - INFO - __main__ - task: financial_phrasebank, train_set_id: 0, n_shot_per_class: 0, acc: 0.27, macro_f1: 0.1417, ood_rate: 0.00, n: 100, pred_dist: {"positive": 100}, label_dist: {"negative": 13, "neutral": 60, "positive": 27}
+06/11/2026 18:17:16 - INFO - __main__ - loading data for hate_speech18
+06/11/2026 18:17:19 - INFO - __main__ - task: hate_speech18, train_set_id: 0, n_shot_per_class: 0, acc: 0.68, macro_f1: 0.4802, ood_rate: 0.00, n: 100, pred_dist: {"hate": 32, "no hate": 68}, label_dist: {"hate": 6, "no hate": 94}
+06/11/2026 18:17:19 - INFO - __main__ - loading data for health_fact
+06/11/2026 18:17:23 - INFO - __main__ - task: health_fact, train_set_id: 0, n_shot_per_class: 0, acc: 0.09, macro_f1: 0.1017, ood_rate: 0.00, n: 100, pred_dist: {"false": 5, "true": 3, "unproven": 92}, label_dist: {"false": 24, "mixture": 17, "true": 56, "unproven": 3}
+06/11/2026 18:17:23 - INFO - __main__ - loading data for i2d2
+06/11/2026 18:17:27 - INFO - __main__ - task: i2d2, train_set_id: 0, n_shot_per_class: 0, acc: 0.61, macro_f1: 0.3789, ood_rate: 0.00, n: 100, pred_dist: {"true": 100}, label_dist: {"false": 39, "true": 61}
+06/11/2026 18:17:27 - INFO - __main__ - loading data for imdb
+06/11/2026 18:17:31 - INFO - __main__ - task: imdb, train_set_id: 0, n_shot_per_class: 0, acc: 0.53, macro_f1: 0.4457, ood_rate: 0.00, n: 100, pred_dist: {"negative": 8, "positive": 92}, label_dist: {"negative": 53, "positive": 47}
+06/11/2026 18:17:31 - INFO - __main__ - loading data for insincere_questions
+06/11/2026 18:17:35 - INFO - __main__ - task: insincere_questions, train_set_id: 0, n_shot_per_class: 0, acc: 0.05, macro_f1: 0.0476, ood_rate: 0.00, n: 100, pred_dist: {"insincere question": 100}, label_dist: {"insincere question": 5, "valid question": 95}
+06/11/2026 18:17:35 - INFO - __main__ - loading data for is_humor
+06/11/2026 18:17:39 - INFO - __main__ - task: is_humor, train_set_id: 0, n_shot_per_class: 0, acc: 0.33, macro_f1: 0.2853, ood_rate: 0.00, n: 100, pred_dist: {"humorous": 4, "not humorous": 96}, label_dist: {"humorous": 71, "not humorous": 29}
+06/11/2026 18:17:39 - INFO - __main__ - loading data for jailbreak_classification
+06/11/2026 18:17:43 - INFO - __main__ - task: jailbreak_classification, train_set_id: 0, n_shot_per_class: 0, acc: 0.44, macro_f1: 0.3056, ood_rate: 0.00, n: 100, pred_dist: {"benign": 4, "jailbreak": 96}, label_dist: {"benign": 52, "jailbreak": 48}
+06/11/2026 18:17:43 - INFO - __main__ - loading data for lexical_rc_cogalexv
+06/11/2026 18:17:47 - INFO - __main__ - task: lexical_rc_cogalexv, train_set_id: 0, n_shot_per_class: 0, acc: 0.18, macro_f1: 0.1294, ood_rate: 0.00, n: 100, pred_dist: {"antonym": 34, "hypernym": 28, "meronym": 5, "synonym": 6, "unrelated": 27}, label_dist: {"antonym": 11, "hypernym": 6, "meronym": 6, "synonym": 10, "unrelated": 67}
+06/11/2026 18:17:47 - INFO - __main__ - loading data for lexical_rc_root09
+06/11/2026 18:17:51 - INFO - __main__ - task: lexical_rc_root09, train_set_id: 0, n_shot_per_class: 0, acc: 0.26, macro_f1: 0.1387, ood_rate: 0.00, n: 100, pred_dist: {"co-hyponym": 99, "hypernym": 1}, label_dist: {"co-hyponym": 26, "hypernym": 15, "unrelated": 59}
+06/11/2026 18:17:51 - INFO - __main__ - loading data for liar
+06/11/2026 18:17:54 - INFO - __main__ - task: liar, train_set_id: 0, n_shot_per_class: 0, acc: 0.20, macro_f1: 0.0676, ood_rate: 0.00, n: 100, pred_dist: {"false": 1, "true": 99}, label_dist: {"barely true": 20, "false": 23, "half true": 12, "mostly true": 22, "pants fire": 4, "true": 19}
+06/11/2026 18:17:54 - INFO - __main__ - loading data for limit
+06/11/2026 18:17:58 - INFO - __main__ - task: limit, train_set_id: 0, n_shot_per_class: 0, acc: 0.29, macro_f1: 0.2427, ood_rate: 0.00, n: 100, pred_dist: {"no": 98, "yes": 2}, label_dist: {"no": 27, "yes": 73}
+06/11/2026 18:17:58 - INFO - __main__ - loading data for logical_fallacy_detection
+06/11/2026 18:18:02 - INFO - __main__ - task: logical_fallacy_detection, train_set_id: 0, n_shot_per_class: 0, acc: 0.45, macro_f1: 0.4068, ood_rate: 0.00, n: 100, pred_dist: {"invalid": 67, "valid": 33}, label_dist: {"invalid": 60, "valid": 40}
+06/11/2026 18:18:02 - INFO - __main__ - loading data for metaphor_boolean
+06/11/2026 18:18:06 - INFO - __main__ - task: metaphor_boolean, train_set_id: 0, n_shot_per_class: 0, acc: 0.48, macro_f1: 0.3243, ood_rate: 0.00, n: 100, pred_dist: {"true": 100}, label_dist: {"false": 52, "true": 48}
+06/11/2026 18:18:06 - INFO - __main__ - loading data for mrpc
+06/11/2026 18:18:10 - INFO - __main__ - task: mrpc, train_set_id: 0, n_shot_per_class: 0, acc: 0.32, macro_f1: 0.2424, ood_rate: 0.00, n: 100, pred_dist: {"not equivalent": 100}, label_dist: {"equivalent": 68, "not equivalent": 32}
+06/11/2026 18:18:10 - INFO - __main__ - loading data for news_data
+06/11/2026 18:18:14 - INFO - __main__ - task: news_data, train_set_id: 0, n_shot_per_class: 0, acc: 0.58, macro_f1: 0.3506, ood_rate: 0.00, n: 100, pred_dist: {"business": 45, "entertainment": 1, "health": 11, "politics": 1, "sports": 42}, label_dist: {"business": 30, "entertainment": 3, "health": 13, "politics": 19, "sports": 30, "tech": 5}
+06/11/2026 18:18:14 - INFO - __main__ - loading data for poem_sentiment
+06/11/2026 18:18:17 - INFO - __main__ - task: poem_sentiment, train_set_id: 0, n_shot_per_class: 0, acc: 0.32, macro_f1: 0.2566, ood_rate: 0.00, n: 100, pred_dist: {"negative": 4, "no impact": 31, "positive": 65}, label_dist: {"negative": 19, "no impact": 66, "positive": 15}
+06/11/2026 18:18:17 - INFO - __main__ - loading data for pragmeval_emergent
+06/11/2026 18:18:21 - INFO - __main__ - task: pragmeval_emergent, train_set_id: 0, n_shot_per_class: 0, acc: 0.52, macro_f1: 0.2281, ood_rate: 0.00, n: 100, pred_dist: {"for": 100}, label_dist: {"against": 14, "for": 52, "observing": 34}
+06/11/2026 18:18:21 - INFO - __main__ - loading data for pragmeval_sarcasm
+06/11/2026 18:18:25 - INFO - __main__ - task: pragmeval_sarcasm, train_set_id: 0, n_shot_per_class: 0, acc: 0.56, macro_f1: 0.3789, ood_rate: 0.00, n: 100, pred_dist: {"not sarcasm": 9, "sarcasm": 91}, label_dist: {"not sarcasm": 37, "sarcasm": 63}
+06/11/2026 18:18:25 - INFO - __main__ - loading data for pragmeval_verifiability
+06/11/2026 18:18:29 - INFO - __main__ - task: pragmeval_verifiability, train_set_id: 0, n_shot_per_class: 0, acc: 0.69, macro_f1: 0.3803, ood_rate: 0.00, n: 100, pred_dist: {"non-experiential": 14, "unverifiable": 86}, label_dist: {"experiential": 15, "non-experiential": 10, "unverifiable": 75}
+06/11/2026 18:18:29 - INFO - __main__ - loading data for prosocial_dialog
+06/11/2026 18:18:33 - INFO - __main__ - task: prosocial_dialog, train_set_id: 0, n_shot_per_class: 0, acc: 0.17, macro_f1: 0.0841, ood_rate: 0.00, n: 100, pred_dist: {"casual": 3, "caution needed": 1, "possibly caution needed": 1, "probably caution needed": 95}, label_dist: {"casual": 18, "caution needed": 37, "intervention needed": 18, "possibly caution needed": 12, "probably caution needed": 15}
+06/11/2026 18:18:33 - INFO - __main__ - loading data for pun_detection
+06/11/2026 18:18:37 - INFO - __main__ - task: pun_detection, train_set_id: 0, n_shot_per_class: 0, acc: 0.65, macro_f1: 0.5508, ood_rate: 0.00, n: 100, pred_dist: {"no": 14, "yes": 86}, label_dist: {"no": 39, "yes": 61}
+06/11/2026 18:18:37 - INFO - __main__ - loading data for qqp
+06/11/2026 18:18:40 - INFO - __main__ - task: qqp, train_set_id: 0, n_shot_per_class: 0, acc: 0.45, macro_f1: 0.4473, ood_rate: 0.00, n: 100, pred_dist: {"duplicate": 63, "not duplicate": 37}, label_dist: {"duplicate": 30, "not duplicate": 70}
+06/11/2026 18:18:40 - INFO - __main__ - loading data for rotten_tomatoes
+06/11/2026 18:18:44 - INFO - __main__ - task: rotten_tomatoes, train_set_id: 0, n_shot_per_class: 0, acc: 0.50, macro_f1: 0.3503, ood_rate: 0.00, n: 100, pred_dist: {"negative": 1, "positive": 99}, label_dist: {"negative": 51, "positive": 49}
+06/11/2026 18:18:44 - INFO - __main__ - loading data for semeval_absa_laptop
+06/11/2026 18:18:48 - INFO - __main__ - task: semeval_absa_laptop, train_set_id: 0, n_shot_per_class: 0, acc: 0.48, macro_f1: 0.1949, ood_rate: 0.00, n: 100, pred_dist: {"conflict": 1, "negative": 10, "positive": 89}, label_dist: {"conflict": 4, "negative": 24, "neutral": 22, "positive": 50}
+06/11/2026 18:18:48 - INFO - __main__ - loading data for semeval_absa_restaurant
+06/11/2026 18:18:52 - INFO - __main__ - task: semeval_absa_restaurant, train_set_id: 0, n_shot_per_class: 0, acc: 0.68, macro_f1: 0.2563, ood_rate: 0.00, n: 100, pred_dist: {"conflict": 1, "negative": 7, "neutral": 4, "positive": 88}, label_dist: {"conflict": 1, "negative": 12, "neutral": 13, "positive": 74}
+06/11/2026 18:18:52 - INFO - __main__ - loading data for senteval_cr
+06/11/2026 18:18:55 - INFO - __main__ - task: senteval_cr, train_set_id: 0, n_shot_per_class: 0, acc: 0.56, macro_f1: 0.3590, ood_rate: 0.00, n: 100, pred_dist: {"positive": 100}, label_dist: {"negative": 44, "positive": 56}
+06/11/2026 18:18:55 - INFO - __main__ - loading data for senteval_subj
+06/11/2026 18:18:59 - INFO - __main__ - task: senteval_subj, train_set_id: 0, n_shot_per_class: 0, acc: 0.43, macro_f1: 0.3007, ood_rate: 0.00, n: 100, pred_dist: {"subjective": 100}, label_dist: {"objective": 57, "subjective": 43}
+06/11/2026 18:18:59 - INFO - __main__ - loading data for silicone_dyda_da
+06/11/2026 18:19:03 - INFO - __main__ - task: silicone_dyda_da, train_set_id: 0, n_shot_per_class: 0, acc: 0.23, macro_f1: 0.1808, ood_rate: 0.00, n: 100, pred_dist: {"commissive": 45, "directive": 21, "inform": 34}, label_dist: {"commissive": 6, "directive": 17, "inform": 47, "question": 30}
+06/11/2026 18:19:03 - INFO - __main__ - loading data for sms_spam
+06/11/2026 18:19:07 - INFO - __main__ - task: sms_spam, train_set_id: 0, n_shot_per_class: 0, acc: 0.30, macro_f1: 0.2860, ood_rate: 0.00, n: 100, pred_dist: {"ham": 24, "spam": 76}, label_dist: {"ham": 90, "spam": 10}
+06/11/2026 18:19:07 - INFO - __main__ - loading data for sst2
+06/11/2026 18:19:10 - INFO - __main__ - task: sst2, train_set_id: 0, n_shot_per_class: 0, acc: 0.63, macro_f1: 0.4999, ood_rate: 0.00, n: 100, pred_dist: {"negative": 6, "positive": 94}, label_dist: {"negative": 43, "positive": 57}
+06/11/2026 18:19:10 - INFO - __main__ - loading data for sst5
+06/11/2026 18:19:14 - INFO - __main__ - task: sst5, train_set_id: 0, n_shot_per_class: 0, acc: 0.24, macro_f1: 0.1085, ood_rate: 0.00, n: 100, pred_dist: {"negative": 10, "positive": 87, "very negative": 3}, label_dist: {"extremely positive": 18, "negative": 29, "neutral": 17, "positive": 21, "very negative": 15}
+06/11/2026 18:19:14 - INFO - __main__ - loading data for student_question_categories
+06/11/2026 18:19:18 - INFO - __main__ - task: student_question_categories, train_set_id: 0, n_shot_per_class: 0, acc: 0.38, macro_f1: 0.3442, ood_rate: 0.00, n: 100, pred_dist: {"biology": 43, "chemistry": 11, "maths": 46}, label_dist: {"biology": 9, "chemistry": 19, "maths": 32, "physics": 40}
+06/11/2026 18:19:18 - INFO - __main__ - loading data for tcfd_recommendations
+06/11/2026 18:19:23 - INFO - __main__ - task: tcfd_recommendations, train_set_id: 0, n_shot_per_class: 0, acc: 0.17, macro_f1: 0.1250, ood_rate: 0.00, n: 100, pred_dist: {"governance": 2, "none": 5, "risk": 86, "strategy": 7}, label_dist: {"governance": 8, "metrics": 14, "none": 17, "risk": 14, "strategy": 47}
+06/11/2026 18:19:23 - INFO - __main__ - loading data for this_is_not_a_dataset
+06/11/2026 18:19:27 - INFO - __main__ - task: this_is_not_a_dataset, train_set_id: 0, n_shot_per_class: 0, acc: 0.54, macro_f1: 0.3506, ood_rate: 0.00, n: 100, pred_dist: {"true": 100}, label_dist: {"false": 46, "true": 54}
+06/11/2026 18:19:27 - INFO - __main__ - loading data for toxic_conversations
+06/11/2026 18:19:31 - INFO - __main__ - task: toxic_conversations, train_set_id: 0, n_shot_per_class: 0, acc: 0.90, macro_f1: 0.4737, ood_rate: 0.00, n: 100, pred_dist: {"not toxic": 97, "toxic": 3}, label_dist: {"not toxic": 93, "toxic": 7}
+06/11/2026 18:19:31 - INFO - __main__ - loading data for trec
+06/11/2026 18:19:34 - INFO - __main__ - task: trec, train_set_id: 0, n_shot_per_class: 0, acc: 0.36, macro_f1: 0.3216, ood_rate: 0.00, n: 100, pred_dist: {"Abbreviation": 19, "Description": 21, "Location": 40, "Number": 10, "Person": 10}, label_dist: {"Abbreviation": 1, "Description": 26, "Entity": 21, "Location": 16, "Number": 24, "Person": 12}
+06/11/2026 18:19:34 - INFO - __main__ - loading data for wic
+06/11/2026 18:19:38 - INFO - __main__ - task: wic, train_set_id: 0, n_shot_per_class: 0, acc: 0.52, macro_f1: 0.3421, ood_rate: 0.00, n: 100, pred_dist: {"yes": 100}, label_dist: {"no": 48, "yes": 52}
+06/11/2026 18:19:38 - INFO - __main__ - loading data for wiki_hades
+06/11/2026 18:19:42 - INFO - __main__ - task: wiki_hades, train_set_id: 0, n_shot_per_class: 0, acc: 0.49, macro_f1: 0.4875, ood_rate: 0.00, n: 100, pred_dist: {"hallucinated": 62, "not hallucinated": 38}, label_dist: {"hallucinated": 45, "not hallucinated": 55}
+06/11/2026 18:19:42 - INFO - __main__ - loading data for wiki_qa
+06/11/2026 18:19:46 - INFO - __main__ - task: wiki_qa, train_set_id: 0, n_shot_per_class: 0, acc: 0.73, macro_f1: 0.4220, ood_rate: 0.00, n: 100, pred_dist: {"no": 76, "yes": 24}, label_dist: {"no": 97, "yes": 3}
+06/11/2026 18:19:46 - INFO - __main__ - loading data for wsc
+06/11/2026 18:19:50 - INFO - __main__ - task: wsc, train_set_id: 0, n_shot_per_class: 0, acc: 0.38, macro_f1: 0.3273, ood_rate: 0.00, n: 100, pred_dist: {"false": 9, "true": 91}, label_dist: {"false": 63, "true": 37}
+06/11/2026 18:19:50 - INFO - __main__ - loading data for yahoo_answers_topics
+06/11/2026 18:19:54 - INFO - __main__ - task: yahoo_answers_topics, train_set_id: 0, n_shot_per_class: 0, acc: 0.20, macro_f1: 0.1852, ood_rate: 0.00, n: 100, pred_dist: {"business & finance": 3, "education & reference": 7, "entertainment & music": 1, "family & relationships": 3, "health": 6, "politics & government": 1, "society & culture": 77, "sports": 2}, label_dist: {"business & finance": 11, "computers & internet": 13, "education & reference": 11, "entertainment & music": 8, "family & relationships": 13, "health": 5, "politics & government": 11, "science & mathematics": 5, "society & culture": 9, "sports": 14}
